@@ -1,0 +1,39 @@
+{
+    "name": "laravel-notification-channels/twilio",
+    "description": "Twilio Notifications Driver for Laravel.",
+    "homepage": "https://github.com/laravel-notification-channels/twilio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Wartner",
+            "email": "hi@florianwartner.co",
+            "homepage": "https://florianwartner.co",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/events": "^5.3@dev",
+        "illuminate/notifications": "^5.3@dev",
+        "illuminate/support": "^5.3@dev",
+        "twilio/sdk": "^4.11"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\Twilio\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NotificationChannels\\Twilio\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
