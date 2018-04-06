@@ -1,16 +1,20 @@
 # Twilio Laravel Notifications Provider
 
-If you don´t want to use Nexmo for the sms notifications in your Laravel 5.3 application, you can use this provider to fire your notifications using Twilio.
+If you don´t want to use Nexmo for the sms notifications in your Laravel 5.3 application, you can use this provider to fire your notifications using Twilio. 
 
 ## Installation
 
-To pull the Twilio-Provider into your application run `composer require laravel-notification-channels/twilio`.
+To pull the Twilio-Provider into your application 
+```
+composer require laravel-notification-channels/twilio
+ ```
+
 Now register the Provider within your application in your `config/app.php`:
 
 ```php
  'providers' => [
      ...
-     NotificationChannels\Twilio\Provider::class,
+     NotificationChannels\Twilio\TwilioProvider::class,
  ];
  ```
 
