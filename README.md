@@ -90,6 +90,7 @@ This is what your notification will look like:
 ## Credits
 
 - [Florian Wartner](https://github.com/fwartner)
+- [Juanma Muñoz](https://github.com/Onyria)
 - [All Contributors](../../contributors)
 
 ## License
